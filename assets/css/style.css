@@ -100,8 +100,7 @@ header nav a:hover {
   background-color: var(--turquoise-color);
 }
 
-.grid-contents,
-.grid-contents-span
+.grid-contents
 {
   display: inline-block;
   text-align: justify;
