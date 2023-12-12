@@ -47,6 +47,8 @@ w3Schools online learning site - https://www.w3schools.com/css/css_pseudo_classe
 w3Schools CSS selectors - https://www.w3schools.com/cssref/css_selectors.php
 
 ## Usage 
+To demonstrate responsiveness of webpage to see how it will be be displayed on other screen.
+Use the navigation links to scroll to sections of your page.
 
    
 ## License 
@@ -56,7 +58,6 @@ This project is licensed under the MIT License.
 ## Credits
 
 1.Slack - studygroup, TA assistants, Course instructor, Reasources, ask the class.
-
 
 
 ## Contact 
