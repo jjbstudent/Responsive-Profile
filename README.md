@@ -42,9 +42,9 @@ To work on this project locally, follow these steps:
    
 ## Contributing
 
-N/A
-
-*see Credits for resource links
+Scaling calculator/convertion information - https://www.fluid-type-scale.com/
+w3Schools online learning site - https://www.w3schools.com/css/css_pseudo_classes.asp
+w3Schools CSS selectors - https://www.w3schools.com/cssref/css_selectors.php
 
 ## Usage 
 
