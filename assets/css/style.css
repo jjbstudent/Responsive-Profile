@@ -49,16 +49,21 @@ h1{
 
 /*header navigating styling*/
 #header nav{
-  border-radius: 5px; /* Add rounded cor/ners to the links */
-  font-size: 30px;
   text-align: right;
 }
 
 #header nav a{
   border-radius: 5px; /* Add rounded corners to the links */
   font-size: 30px;
+  display: inline-block;
   justify-content: space-between;
   color: white;
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+  padding: 10px 15px;
+  border: 2px solid var(--turquoise-color);
+  text-decoration: none; /*removes underline*/
+  border-radius: 15px; /*round borders*/
+  font-size: 20px;
 }
 
 #header nav a:hover {
@@ -75,6 +80,7 @@ h1{
 }
 
 .hero-banner h2{
+  display: inline-block;
   background-color: var(--turquoise-color);
   color: white;
   font-size: 25px;
@@ -109,8 +115,10 @@ h1{
   border: 1px solid black;
   padding: 10px; /* Add padding for better spacing */
 }
+
+/*positioning of the profile headings*/
 .profile-heading {
-    display: block; /* Change to block to ensure one column */
+    display: block; /* block to ensures it displays in one column */
     position: relative;
     left: -200px;
     top: 0;
@@ -175,7 +183,7 @@ h1{
   header nav {
     position: relative;
     flex-direction: row;
-    align-items: center;
+    align-items: right;
   }
   .profile-headings {
     position: static; /* Reset position for smaller screens */
