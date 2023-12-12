@@ -1,6 +1,7 @@
 # Responsive Student Profile
 
 ## Description
+Development of a dynamic portfolio page
 
 ## Table of Contents
 
