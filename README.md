@@ -14,7 +14,7 @@
 - [Contact](#Contact)
 
 ## Project Overview
-
+This week's project involves the development of a dynamic portfolio page that will serve as a showcase of my skills and accomplishments throughout the course. The primary goal is to create a visually appealing and functional portfolio that not only highlights my technical abilities but also provides insight into my thought processes behind the showcased work.
 
 ## Features
 
