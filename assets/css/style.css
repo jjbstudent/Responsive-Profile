@@ -21,10 +21,15 @@ body {
   line-height: 1.5;
 }
 
-.page-wrapper {
+/* Structure alignment only*/
+.page-wrapper,
+.contact-me nav,
+.hero-banner h2,
+#header nav
+{
   max-width: 95%;
-  margin: 0 0 0 200px;
-  padding: 40px;
+  margin: 0px 50px 0px 200px;
+  padding: 20px;
   position: relative;
 }
 
@@ -35,50 +40,46 @@ header {
   padding: 20px 0;
 }
 
-h1 {
+h1{
   font-size: 2.5em;
   text-align: left;
   background-color: turquoise;
   display: unset;
-  text-size-adjust: 0px;
-  
 }
+
 /*header navigating styling*/
-header nav {
-    margin-top: 0%;
-    text-align: right;
+#header nav{
+  border-radius: 5px; /* Add rounded cor/ners to the links */
+  font-size: 30px;
+  text-align: right;
 }
 
-header nav a {
-  color: var(--turquoise-color);/* Replace with your desired text color value */
-  padding: 10px 15px; /* Add some padding for better spacing */
-  margin: 0 5px; /* Add margin to separate links */
+#header nav a{
   border-radius: 5px; /* Add rounded corners to the links */
-  font-size: 20px;
+  font-size: 30px;
+  justify-content: space-between;
+  color: white;
 }
 
-header nav a:hover {
-  background-color: blue; /* Replace with your desired background color value on hover */
-  color: rgb(255, 47, 245); /* Replace with your desired text color value on hover */
+#header nav a:hover {
+  background-color: var(--turquoise-color); /* background color value on hover */
+  color: rgb(255, 255, 255); /*  text color value on hover */
 }
 
 /* Hero Banner Styles */
 .hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover; /* fits image to match grid area*/
-  color: #fff;
-  text-align: right;
-  padding: 50px 0;
+  height: 200px;
+  padding: 20px;
 }
 
-.hero-banner h2 {
-  font-size: 1em;
-  display: unset;
-  margin:3%;
+.hero-banner h2{
   background-color: var(--turquoise-color);
-  padding: 10px;
+  color: white;
+  font-size: 25px;
+  text-align: right;
 }
-
 /* Page Section Styles */
 .page-section {
   margin-bottom: 30px; /* Add margin between page sections */
@@ -147,21 +148,19 @@ header nav a:hover {
   /* Styles for Run Buddy project */
 }
 /*Contact me section-------------------------!>*/
-.contact-me nav {
-  margin-top: 0%;
-  text-align: center /* Align the navigation to the right */
-}
 
 .contact-me a{
+  display: inline-block;
   color:black; /* Link text color */
   transition: color 0.3s ease; /* Smooth transition for color changes */
-  padding: 8px 12px;
-  border: 1px solid var(--turquoise-color);
-  border-radius: 5px;
+  padding: 10px 15px;
+  border: 2px solid var(--turquoise-color);
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 .contact-me a:hover {
-  color: #480381; /* Hover color */
+  color: #ffffff; /* Hover color */
   background-color: var(--turquoise-color) /* Hover background color */
 }
 
@@ -174,7 +173,8 @@ header nav a:hover {
   }
 
   header nav {
-    flex-direction: column;
+    position: relative;
+    flex-direction: row;
     align-items: center;
   }
   .profile-headings {
