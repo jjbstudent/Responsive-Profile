@@ -55,7 +55,7 @@ This project is licensed under the MIT License.
 
 ## Credits
 
-Links to resources and tutorials
+1.Slack - studygroup, TA assistants, Course instructor, Reasources, ask the class.
 
 
 
