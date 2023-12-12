@@ -52,12 +52,15 @@ h1{
   text-align: right;
 }
 
-#header nav a{
+#header nav a,
+.contact-me a
+{
   border-radius: 5px; /* Add rounded corners to the links */
   font-size: 30px;
   display: inline-block;
   justify-content: space-between;
   color: white;
+  background-color: #333;
   transition: color 0.3s ease; /* Smooth transition for color changes */
   padding: 10px 15px;
   border: 2px solid var(--turquoise-color);
@@ -156,16 +159,6 @@ h1{
   /* Styles for Run Buddy project */
 }
 /*Contact me section-------------------------!>*/
-
-.contact-me a{
-  display: inline-block;
-  color:black; /* Link text color */
-  transition: color 0.3s ease; /* Smooth transition for color changes */
-  padding: 10px 15px;
-  border: 2px solid var(--turquoise-color);
-  border-radius: 15px;
-  font-size: 20px;
-}
 
 .contact-me a:hover {
   color: #ffffff; /* Hover color */
