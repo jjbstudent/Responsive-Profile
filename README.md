@@ -24,10 +24,10 @@ This week's project involves the development of a dynamic portfolio page that wi
 
 To work on this project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository and open in VS Code:
 
    ```bash
-   git clone https://github.com/jjbstudent/PROJECT
+   git clone https://github.com/jjbstudent/Responsive-Profile.git
 
    git pull origin main
 
