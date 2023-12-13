@@ -41,10 +41,13 @@ To work on this project locally, follow these steps:
 
    
 ## Contributing
+Links to resources and tutorials
 
-Scaling calculator/convertion information - https://www.fluid-type-scale.com/
-w3Schools online learning site - https://www.w3schools.com/css/css_pseudo_classes.asp
-w3Schools CSS selectors - https://www.w3schools.com/cssref/css_selectors.php
+https://www.fluid-type-scale.com/ - Scaling calculator/convertion information
+
+https://www.w3schools.com/css/css_pseudo_classes.asp -w3Schools online learning site
+
+https://www.w3schools.com/cssref/css_selectors.php -w3Schools CSS selectors
 
 ## Usage 
 To demonstrate responsiveness of webpage to see how it will be be displayed on other screen.
