@@ -53,6 +53,8 @@ https://www.w3schools.com/cssref/css_selectors.php -w3Schools CSS selectors
 To demonstrate responsiveness of webpage to see how it will be be displayed on other screen.
 Use the navigation links to scroll to sections of your page.
 
+Use the link to my live Website on github https://jjbstudent.github.io/Responsive-Profile/
+
 Preview 1 - shows the webpage on a large screen
 
 ![Website screenshot](images/preview1.jpg)  
