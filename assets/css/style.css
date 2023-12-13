@@ -4,10 +4,21 @@
 }
 
 /* Reset some default styles */
-body, h1, h2, p, nav, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+nav,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
+.page-section{
+  text-align: center;
+}
+
 
 /* Global Styles */
 body {
@@ -18,14 +29,21 @@ body {
 
 /* Structure alignment only*/
 .page-wrapper,
-.contact-me nav,
 .hero-banner h2,
-#header nav
+#header nav,
+.contact-me nav
 {
-  max-width: 95%;
-  margin: 0px 50px 0px 200px;
+  max-width: 100%;
+  margin: 0px 40px 0px 200px;
   padding: 20px;
   position: relative;
+  display:block;
+  border-radius: var(--border-radius);
+}
+
+.contact-me nav,
+footer{
+  text-align: center;
 }
 
 /* Header Styles */
@@ -35,18 +53,18 @@ header {
   padding: 20px 0;
 }
 
-/* Style for - Jermaine Bandoo in the header */
-h1{ 
+img{
+  border-radius: 50%; 
+  width: 200px; 
+  height: 200px; 
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+h1{
   font-size: 2.5em;
   text-align: left;
   background-color: turquoise;
   display: unset;
-  border-radius: var(--border-radius);
-}
-
-/* student coder title*/
-h2{
-  font-size: 25px;
   border-radius: var(--border-radius);
 }
 
@@ -55,24 +73,16 @@ h2{
   text-align: right;
 }
 
-img {
-  display: block;
-  overflow: clip;
-}
-
 #header nav a,
-.contact-me nav a
-{
-  font-size: 30px;
+.contact-me a{
   display: inline-block;
   justify-content: space-between;
   color: white;
-  background-color: #333;
   transition: color 0.3s ease; /* Smooth transition for color changes */
   padding: 10px 15px;
   border: 2px solid var(--turquoise-color);
-  border-radius: var(--border-radius);
   text-decoration: none; /*removes underline*/
+  border-radius: var(--border-radius);
   font-size: 20px;
 }
 
@@ -106,7 +116,7 @@ img {
 .work-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   margin-bottom: 50px;
   gap: 10px;
 }
@@ -121,84 +131,92 @@ img {
 {
   display: inline-block;
   text-align: justify;
-  font-size: 13px;
   background-color:var(--turquoise-color);
   border: 1px solid black;
-  padding: 5px; /* Add padding for better spacing */
-
+  padding: 10px; /* Add padding for better spacing */
 }
 
 /*positioning of the profile headings*/
 .profile-heading {
-  display: table-cell;
+  display: inline-block;
   position: relative;
-  bottom: 200;
   left: -200px;
-  border-right: 4px solid var(--turquoise-color); /* Add border around the profile heading */
-  padding: 10px; /* Add padding for spacing */
-  width: 150px;
-  height: 150px;
+  border-right: 2px solid var(--turquoise-color); /* Add a border around the profile heading */
+  padding: 10px; /* Add padding for better spacing */
+  width: 180px; /* Set a fixed width for the text box */
+  height: 180px;
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  font-size: 40px;
+  text-align: right;
 }
   
 /* Style for merged rows */
 .Surf-report {
-  grid-column: span 2;
   background-color: grey;
-}
-
-.led-window, .calculator, .pastel-puzzles, .run-buddy{
-  height: 200px;
-  background-size: cover;
+  grid-row: span 2;
 }
 
 /* Additional styles for other projects if needed */
 .led-window {
   background-image: url("../images/02-portfolio-1.jpg");
+  background-size: cover; /* fits image to match grid area*/
   /* Styles for LED Window project */
 }
 
 .calculator {
   background-image: url("../images/02-portfolio-2.jpg");
+  background-size: cover; /* fits image to match grid area*/
   /* Styles for Calculator project */
 }
 
 .pastel-puzzles {
   background-image: url("../images/02-portfolio-3.jpg");
+  background-size: cover; /* fits image to match grid area*/
   /* Styles for Pastel Puzzles project */
 }
 
 .run-buddy {
   background-image: url("../images/02-portfolio-4.jpg");
+  background-size: cover; /* fits image to match grid area*/
   /* Styles for Run Buddy project */
 }
-/*Contact me section-------------------------!>*/
+/*footer nav text styling!>*/
+footer.contact-me nav {
+  display: block;
+  position: relative;
+  top: 0%;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: black;
+}
 
 .contact-me a:hover {
-  color: #ffffff; /* Hover color */
-  background-color: var(--turquoise-color) /* Hover background color */
-}
-footer{
-  text-align: center;
-  font-style: italic;
-  font-size: larger;
+  color: #ffffff;
+  background-color: var(--turquoise-color);
 }
 
-/*---------------------------------------------grid section-------------------------------------------------*/
+footer{
+  margin-bottom: 50px;
+}
+
+/*----------------------grid section----------------------*/
 /* Responsive Styles */
 @media (max-width: 600px) {
   h1 {
     font-size: 1.5em;
   }
 
-  header nav, 
-  .contact-me 
-  {
+  header nav {
     position: relative;
     flex-direction: row;
     align-items: right;
   }
-  .profile-heading {
+
+  .profile-headings {
     position: static; /* Reset position for smaller screens */
     margin-bottom: 10px; /* Add margin for spacing */
   }
+}
 
