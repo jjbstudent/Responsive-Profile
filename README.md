@@ -55,11 +55,13 @@ Use the navigation links to scroll to sections of your page.
 
 Preview 1 - shows the webpage on a large screen
 
-![Website screenshot](ref images/preview.png)  
+![Website screenshot](responsive-profile/ref images/preview2.png)  
 
 Preview 2 -shows my webpage on a re-sized smaller browser screen
 
-![Website screenshot](ref images/preview2.png)  
+![Website screenshot](responsive-profile/ref images/preview2.png)  
+
+ref images/preview.png
 
 
 ## License 
