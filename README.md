@@ -54,12 +54,14 @@ To demonstrate responsiveness of webpage to see how it will be be displayed on o
 Use the navigation links to scroll to sections of your page.
 
 Preview 1 - shows the webpage on a large screen
-![image]([https://github.com/](https://github.com/jjbstudent/Responsive-Profile/blob/main/ref%20images/preview.png])
+
+![Website screenshot](ref images/preview.png)  
 
 Preview 2 -shows my webpage on a re-sized smaller browser screen
-![image]([https://github.com/jjbstudent/Responsive-Profile/blob/main/ref%20images/preview2.png])
 
-   
+![Website screenshot](ref images/preview2.png)  
+
+
 ## License 
 
 This project is licensed under the MIT License.
