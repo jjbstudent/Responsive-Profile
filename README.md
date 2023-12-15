@@ -26,6 +26,7 @@ This week's project involves the development of a dynamic portfolio page that wi
 - **Placeholder Content:** In case there are not enough web applications to showcase, use placeholder images and names with the flexibility to update them later in the course.
 - **Thought Processes:** Include sections or annotations that explain the thought processes behind each showcased work.
 - **Wireframe layout** - See image below for responsive wireframe webpage layout
+
 ![Wireframe](images/Responsive Profile page.jpg)  
 
 
