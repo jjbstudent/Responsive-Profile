@@ -27,7 +27,7 @@ This week's project involves the development of a dynamic portfolio page that wi
 - **Thought Processes:** Include sections or annotations that explain the thought processes behind each showcased work.
 - **Wireframe layout** - See image below for responsive wireframe webpage layout
 
-![Wireframe](images/Responsive Profile page.jpg)  
+![Wireframe](images/Responsive-Profile-page.jpg)  
 
 
 ## Installation
